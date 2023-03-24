@@ -1,6 +1,4 @@
 #include <stddef.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 void	*ft_memset(void *ptr, int value, size_t num)
 {
@@ -15,17 +13,3 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	}
 	return (ptr);
 }
-int main(void) {
-    char str[] = "Hello, world!";
-    size_t n = sizeof(str) - 1;
-
-    printf("Original string: %s\n", str);
-
-    // Set the string to all uppercase characters
-    ft_memset(str, 'A', n);
-
-    printf("Modified string: %s\n", str);
-
-    return 0;
-}
-
