@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 char	*ft_strstr(const char *haystack, const char *needle)
 {
 	int	i;
@@ -31,4 +28,3 @@ char	*ft_strstr(const char *haystack, const char *needle)
 	}
 	return(NULL);
 }
-
