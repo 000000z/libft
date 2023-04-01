@@ -1,14 +1,17 @@
-int	ft_atoi(const char *str)
+#ifndef LIBFT_H
+#define LIBFT_H
 
-void	ft_putchar(char c)
+int	ft_atoi(const char *str);
 
-char	ft_strcpy(char *s1, char s2*)
+void	ft_putchar(char c);
 
-int	ft_strcmp(const char *s1, const char *s2)
+char	ft_strcpy(char *s1, char s2*);
 
-void	ft_putchar(char c)
+int	ft_strcmp(const char *s1, const char *s2);
 
-char	*ft_strdup(const char *s)
+void	ft_putchar(char c);
 
-int	ft_strlen(char *str)
+char	*ft_strdup(const char *s);
+
+int	ft_strlen(char *str);
 

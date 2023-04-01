@@ -1,4 +1,4 @@
-char	ft_strcpy(const char *s1, const char s2*)
+char	*ft_strcpy(char *s1, const char *s2)
 {
 	int	i;
 
@@ -8,5 +8,6 @@ char	ft_strcpy(const char *s1, const char s2*)
 		s1[i] = s2[i];
 		i++;
 	}
+	s1[i] = '\0';
 	return(s1);
 }
